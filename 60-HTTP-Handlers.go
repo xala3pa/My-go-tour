@@ -26,7 +26,7 @@ func (h *Struct) ServeHTTP(
 }
 
 
-func main() {
+ºfunc main() {
     http.Handle("/string", String("I'm a frayed knot."))
 	http.Handle("/struct", &Struct{"Hello", ":", "Gophers!"})
     // your http.Handle calls here

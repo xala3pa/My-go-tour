@@ -23,8 +23,7 @@ func (m Image) At(x, y int) color.Color {
 	return color.RGBA{v, v, 255, 255}
 }
 
-
 func main() {
-    m := Image{256, 256}
-    pic.ShowImage(m)
+	m := Image{256, 256}
+	pic.ShowImage(m)
 }
